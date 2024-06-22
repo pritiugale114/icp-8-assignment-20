@@ -11,6 +11,7 @@ body{
     background-color: #333333;
     color: white;
     width: 200px;
+    
 }
 .content{
    background-color: aliceblue;
@@ -29,6 +30,12 @@ body{
     padding-bottom: 10px;
     margin-top: 5px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.active-item{
+    background-color: rgb(129, 133, 132);
+    color:rgb(46, 47, 47) ;
 }
 .menu-item:hover{
  background-color: rgb(209, 243, 244);
@@ -40,4 +47,30 @@ body{
 .imgs{
     height: 20px;
     margin: 5px 7px
+}
+
+
+
+/* small devices  */
+@media screen and (max-width: 600px){
+
+
+}
+
+/* normal devices  */
+@media screen and (min-width: 601px) and  (max-width: 678px){
+
+    
+}
+
+/* tablet devices  */
+@media screen and (min-width: 679px) and  (max-width: 992px){
+
+    
+}
+
+/* tablet devices  */
+@media screen and (min-width: 992px) and  (max-width: 1300px){
+
+    
 }
